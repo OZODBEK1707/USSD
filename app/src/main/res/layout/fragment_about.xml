@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#EFEDD7"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Zo'r 7"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Tarif tafsilotlari Oylik obonent tolovi 40 000so'm /oy
+         O'zbekiston bo'ylab cheksiz qo'ng'iroqlar * Internet barcha yo'nalishlarga
+          8gb/oy O'zbekiston bo'yicha SMS 5 000SMS/ oy Balansingizda bir oylik obonent
+          to'lovini yechish uchun yetarli mablag' bo'lmaganda: Kunlik obonent to'lo'vi 2 000 so'm
+          /kun O'zbekiston bo'yicha daqiqalar *100 daq/kun O'zbekiston bo'yicha SMS 100 SMS/ kun Internet
+          barcha yo'nalishlarga 100MB /kun"
+        android:padding="20dp"
+        />
+
+</LinearLayout>
